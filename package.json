@@ -1,0 +1,21 @@
+{
+  "name": "wifi-qr-code-generator",
+  "module": "src/index.ts",
+  "version": "1.0.0",
+	"scripts": {
+		"compile": "bun run ./scripts/compile",
+		"test": "bun test",
+		"patches": "echo 'No patches specified'"
+	},
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.5",
+    "qrcode": "^1.5.4"
+  }
+}
