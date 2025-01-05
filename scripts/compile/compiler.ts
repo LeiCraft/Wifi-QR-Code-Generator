@@ -12,7 +12,7 @@ class CompilerBuilder {
     public sourcemap = true;
     public minify = true;
     public entrypoint = "./src/index.ts";
-    public outfile = "./build/bin/vm-net";
+    public outfile = "./build/bin/wifi-qr-code-generator";
     public env: NodeJS.ProcessEnv = {};
 
     constructor(private baseCommand = "bun build --compile") {}
